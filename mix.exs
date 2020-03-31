@@ -50,7 +50,7 @@ defmodule PhoenixEcto.Mixfile do
   defp deps do
     [
       {:phoenix_html, "~> 2.9", optional: true},
-      {:ecto, "~> 3.0"},
+      {:ecto, "~> 3.4"},
       {:plug, "~> 1.0"},
       {:ex_doc, ">= 0.0.0", only: :docs}
     ]
